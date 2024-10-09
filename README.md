@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+<body>
+  <h1>Agenda de contatos</h1>
+  <p>Este projeto é um CRUD básico que simula uma agenda telefônica, onde é possível cadastrar um novo contato, editar, deletar e visualizar todos os contatos.</p><br>
+  
+  <p>Deploy:  <a href='https://contacts-interface.netlify.app/'> Clique aqui</a></p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <h2>Funcionalidades</h2>
+  <ul>
+      <li><strong>Cadastro:</strong> Cadastre nome e telefone de seus contatos.</li>
+      <li><strong>Visualização:</strong> Verifique em um clique todos os contatos da sua agenda.</li>
+      <li><strong>Atualize:</strong> Mantenha seus conttatos sempre atualizdos. (⚠️ ainda não implementado 100%)</li>
+      <li><strong>Delete:</strong> Delete os contatos que não quer mais em sua agenda.</li>
+      <li><strong>API Node JS:</strong> API simples porém robusta e de fácil manutenção.</li>
+      <li><strong>Responsividade:</strong> A aplicação é responsiva em todos os dispositivos.</li>
+  </ul><br>
 
-## Available Scripts
+  <h2>Previa:</h2>
 
-In the project directory, you can run:
+  <div display: flex>
+  <img src='https://github.com/giuseppebarbetta/contacts-interface/assets/148505073/3216762c-f43b-4182-9137-055e4a34aa84' alt='preview create new contact' width='350px' />
+  <img src='https://github.com/giuseppebarbetta/contacts-interface/assets/148505073/e5150a15-1323-4efb-aac6-f3cf667b3a1a' alt='preview contacts app interface' width='350px' />
 
-### `npm start`
+  </div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  <h2>Tecnologias Utilizadas</h2>
+  <div display: flex>
+    <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" width="98px" height="26px" alt='React logo'> 
+    <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" width="98px" height="26px" alt='CSS logo'>
+  </div><br>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  <h2>Estrutura do Projeto</h2>
+  <p>Principais pastas e arquivos</p>
 
-### `npm test`
+  <pre>
+  contacts-interface/
+  │
+  └── src/ (Pasta principal onde a maior parte dos conteúdos da aplicação se encontram)
+    ├── assets/ (Arquivo contém as imagens do projeto)
+    ├── components (Contém os componentes React utilizados na criação da aplicação)
+    ├── containers (Contém os conteudos das páginas)
+    ├── styles (Arquivo CSS com as principais estilizações)
+    ├── routes (Arquivo com as rotas de navegação)
+    └── index.js (Contém a estrutura básica do site 'GlobalStyle' e 'Routes')
+  </pre>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  <h2>Como Utilizar</h2>
+  <ol>
+      <li>Clone este repositório: <code>git clone https://github.com/giuseppebarbetta/contacts-interface</code></li>
+      <li>Instale as dependências com <code>yarn</code>.</li>
+      <li>Inicie ambos os projetos com <code>yarn start</code> pelo terminal.</li>
+  </ol><br>
 
-### `npm run build`
+  <h2>Contribuição</h2>
+  <p>Contribuições são bem-vindas! Sinta-se à vontade para abrir um problema ou enviar uma solicitação de pull.</p><br>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  <h2>Autor</h2>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  <p>Este projeto foi desenvolvido por Giuseppe Barbetta. ©</p>
+</body>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+</html>
