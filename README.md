@@ -2,7 +2,7 @@
   <h1>Agenda de contatos</h1>
   <p>Este projeto é um CRUD básico que simula uma agenda telefônica, onde é possível cadastrar um novo contato, editar, deletar e visualizar todos os contatos.</p><br>
   
-  <p>Deploy:  <a href='https://contacts-interface.netlify.app/'> Clique aqui</a></p>
+  <p>Deploy:  <a href='https://contacts-front.netlify.app/'> Clique aqui</a></p>
 
   <h2>Funcionalidades</h2>
   <ul>
