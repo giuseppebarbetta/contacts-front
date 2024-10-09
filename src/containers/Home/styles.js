@@ -1,10 +1,10 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Image = styled.img`
   height: 206px;
   margin-bottom: 26px;
   align-self: center;
-`;
+`
 
 export const InputLabel = styled.p`
   font-size: 18px;
@@ -13,7 +13,7 @@ export const InputLabel = styled.p`
   letter-spacing: -0.40799999237060547px;
   text-align: left;
   padding-left: 17px;
-`;
+`
 
 export const Input = styled.input`
   background: rgba(255, 255, 255, 0.25);
@@ -28,4 +28,11 @@ export const Input = styled.input`
   outline: none;
 
   margin-bottom: 17px;
-`;
+
+  &::-webkit-inner-spin-button,
+  &::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  -moz-appearance: textfield;
+`
